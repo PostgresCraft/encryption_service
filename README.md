@@ -24,7 +24,7 @@ cd encryption_service
 ```bash
 # Windows
 py -3.12 -m venv venv
-.\env\Scripts\Activate
+.\venv\Scripts\Activate
 ```
 <div align="center">
   <img src="screenshots/Windows.gif" alt="PostgreSQL Admin Tools Windows" width="600"/>
