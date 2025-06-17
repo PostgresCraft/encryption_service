@@ -60,6 +60,19 @@ source venv/bin/activate
 
 ---
 
+### Optional: Upgrade pip (recommended)
+
+Before installing dependencies, it's recommended to upgrade `pip` to the latest version to avoid compatibility issues.
+
+```bash
+python -m pip install --upgrade pip
+```
+---
+<div align="center">
+  <img src="screenshots/Upgradepip.gif" alt="Upgrade pip Tools Windows" width="600"/>
+</div>
+<sub>📽️ Quick Windows of the Upgrade pip Tools in action</sub>
+
 ### Install Dependencies
 
 ```bash
