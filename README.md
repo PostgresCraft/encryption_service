@@ -1,6 +1,3 @@
-
----
-
 # 🔐 Encryption Service
 
 A lightweight Python-based encryption and decryption tool built with the [`cryptography`](https://cryptography.io/en/latest/) library.  
@@ -39,13 +36,15 @@ cd encryption_service
 ---
 
 ## 🚀 Quick Start
+
 ### 1. Create Virtual Environment
 
 ```bash
 # Windows
 py -3.12 -m venv venv
-.\venv\Scripts\Activate
+.env\Scripts\Activate
 ```
+
 <div align="center">
   <img src="screenshots/Windows.gif" alt="Encryption Service Tools Windows" width="600"/>
 </div>
@@ -68,6 +67,7 @@ Before installing dependencies, it's recommended to upgrade `pip` to the latest 
 ```bash
 python -m pip install --upgrade pip
 ```
+
 <div align="center">
   <img src="screenshots/Upgradepip.gif" alt="Upgrade pip Tools Windows" width="600"/>
 </div>
@@ -80,6 +80,7 @@ python -m pip install --upgrade pip
 ```bash
 pip install -r requirements.txt
 ```
+
 <div align="center">
   <img src="screenshots/install.gif" alt="Encryption Service Tools install" width="600"/>
 </div>
@@ -106,6 +107,8 @@ encryption_service/
 ├── requirements.txt        # List of dependencies
 └── README.md               # Project documentation
 ```
+
+</details>
 
 ---
 
