@@ -176,7 +176,7 @@ Run it using:
 
 ```bash
 python brute_force_simulation.py
-
+```
 ---
 
 ## License
