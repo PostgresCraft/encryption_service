@@ -19,6 +19,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - [Project Structure 🧱](#project-structure)
 - [Integration Guide 🧪](#-integration-guide)
 - [Brute-force Simulation 💣](#brute-force-simulation)
+- [Brute-force Simulation (Why Fernet is Secure) 🔐](#brute-force-simulation-why-fernet-is-secure)
 - [License 📄](#license)
 - [Author 👨‍💻](#author)
 
@@ -164,9 +165,11 @@ Here's how to integrate it in 3 simple steps...
 
 ✅ Ready for PostgreSQL, APIs, Flask projects and more.
 
+[🔝 Back to Top](#encryption-service)
+
 ---
 
-## 🔐 Brute-force Simulation (Why Fernet is Secure)
+## Brute-force Simulation (Why Fernet is Secure)
 
 This script (`brute_force_simulation.py`) simulates trying 100,000+ random keys against a real encrypted message. As expected, none succeed.
 
@@ -177,6 +180,9 @@ Run it using:
 ```bash
 python brute_force_simulation.py
 ```
+
+[🔝 Back to Top](#encryption-service)
+
 ---
 
 ## License
