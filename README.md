@@ -93,7 +93,7 @@ pip install -r requirements.txt
 The following is the current structure of the project files:
 
 <div align="center">
-  <img src="screenshots/summary_tree.txt.png" alt="Project file structure" width="600"/>
+  <img src="screenshots/summary_tree.png" alt="Project file structure" width="600"/>
 </div>
 <sub>📸 Project file structure overview</sub>
 
