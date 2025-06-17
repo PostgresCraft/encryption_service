@@ -15,3 +15,16 @@ def get_user_key(user_id: str) -> bytes:
         return key
     else:
         return key_path.read_bytes()
+    
+def generate_key():
+    from cryptography.fernet import Fernet
+    return Fernet.generate_key()
+
+def save_key(key, filename):
+    with open(filename, 'wb') as f:
+        f.write(key)
+
+def load_key(filename):
+    with open(filename, 'rb') as f:
+        return f.read()
+

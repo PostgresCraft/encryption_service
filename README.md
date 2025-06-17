@@ -18,9 +18,11 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - [Quick Start 🚀](#quick-start)
 - [Project Structure 🧱](#project-structure)
 - [Integration Guide 🧪](#-integration-guide)
+- [Brute-force Simulation 💣](#brute-force-simulation)
 - [License 📄](#license)
 - [Author 👨‍💻](#author)
 
+[🔝 Back to Top](#encryption-service)
 
 ---
 
@@ -161,6 +163,19 @@ Here's how to integrate it in 3 simple steps...
 3. Use `encrypt()` and `decrypt()` wherever needed in your project.
 
 ✅ Ready for PostgreSQL, APIs, Flask projects and more.
+
+---
+
+## 🔐 Brute-force Simulation (Why Fernet is Secure)
+
+This script (`brute_force_simulation.py`) simulates trying 100,000+ random keys against a real encrypted message. As expected, none succeed.
+
+> Fernet uses 256-bit keys. That means **2^256 possible keys**, making brute-force attacks practically impossible — even with all the computers on Earth.
+
+Run it using:
+
+```bash
+python brute_force_simulation.py
 
 ---
 
