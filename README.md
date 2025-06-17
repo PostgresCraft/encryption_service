@@ -22,7 +22,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ---
 
-## Features
+## Features <span style="font-size:1.2em;">✨</span>
 
 - 🔐 AES encryption and decryption (Fernet – symmetric key)
 - 🔑 Key generation, saving, and loading
