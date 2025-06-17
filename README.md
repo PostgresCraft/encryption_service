@@ -11,7 +11,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Features ✨](#features)
 - [Clone the Repository 📥](#clone-the-repository)
@@ -23,8 +23,6 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - [License 📄](#license)
 - [Author 👨‍💻](#author)
 
-[🔝 Back to Top](#encryption-service)
-
 ---
 
 ## Features
@@ -35,7 +33,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - ⚙️ Ready for integration with PostgreSQL, APIs, or services
 - 💻 Cross-platform (Windows, macOS, Linux)
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -57,7 +55,7 @@ cd encryption_service
 </p>
 📽️ Quick Clone of the Encryption Service Tools in action
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -78,7 +76,7 @@ py -3.12 -m venv venv
 </p>
 📽️ Quick Windows of the Encryption Service Tools in action
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -105,7 +103,7 @@ python -m pip install --upgrade pip
 </p>
 📽️ Upgrading pip on Windows (recommended)
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -122,7 +120,7 @@ pip install -r requirements.txt
 </p>
 📽️ Quick install of the Encryption Service Tools in action
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -150,7 +148,7 @@ encryption_service/
 
 </details>
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -165,7 +163,7 @@ Here's how to integrate it in 3 simple steps...
 
 ✅ Ready for PostgreSQL, APIs, Flask projects and more.
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -181,7 +179,7 @@ Run it using:
 py tests\brute_force_simulation.py
 ```
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -190,7 +188,7 @@ py tests\brute_force_simulation.py
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
 
@@ -199,6 +197,6 @@ See the [LICENSE](./LICENSE) file for details.
 **Tamer Hamad Faour**  
 GitHub: [@TamerOnLine](https://github.com/TamerOnLine)
 
-[🔝 Back to Top](#encryption-service)
+[🔝 Back to Top](#table-of-contents)
 
 ---
