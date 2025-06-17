@@ -97,8 +97,8 @@ python -m pip install --upgrade pip
 ```
 
 <p align="center">
-  <a href="screenshots/Upgradepip.gif">
-  <img src="screenshots/Upgradepip.gif" alt="Upgrade pip Tools Windows" width="600"/>
+  <a href="screenshots/Upgrade_pip.gif">
+  <img src="screenshots/Upgrade_pip.gif" alt="Upgrade pip Tools Windows" width="600"/>
   </a>
 </p>
 📽️ Upgrading pip on Windows (recommended)
