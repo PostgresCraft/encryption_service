@@ -5,8 +5,8 @@ __pycache__/
 *.code-workspace
 summary_tree.txt
 *.exe
-venv-main
-venv-pg
+venv-main/
+venv-pg/
 
 # C extensions
 *.so
