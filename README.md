@@ -17,6 +17,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - 🧰 Easy CLI interface (coming soon)
 - ⚙️ Ready for integration with PostgreSQL, APIs, or services
 - 💻 Cross-platform (Windows, macOS, Linux)
+
 ---
 
 ## 📥 Clone the Repository
@@ -67,11 +68,12 @@ Before installing dependencies, it's recommended to upgrade `pip` to the latest 
 ```bash
 python -m pip install --upgrade pip
 ```
----
 <div align="center">
   <img src="screenshots/Upgradepip.gif" alt="Upgrade pip Tools Windows" width="600"/>
 </div>
-<sub>📽️ Quick Windows of the Upgrade pip Tools in action</sub>
+<sub>📽️ Upgrading pip on Windows (recommended)</sub>
+
+---
 
 ### Install Dependencies
 
@@ -82,6 +84,28 @@ pip install -r requirements.txt
   <img src="screenshots/install.gif" alt="Encryption Service Tools install" width="600"/>
 </div>
 <sub>📽️ Quick install of the Encryption Service Tools in action</sub>
+
+---
+
+## 🧱 Project Structure
+
+The following is the current structure of the project files:
+
+<div align="center">
+  <img src="screenshots/summary_tree.txt.png" alt="Project file structure" width="600"/>
+</div>
+<sub>📸 Project file structure overview</sub>
+
+<details>
+<summary>📄 Click to view the text version</summary>
+
+```bash
+encryption_service/
+├── encryption.py           # Core encryption/decryption logic
+├── keys_manager.py         # Key generation and key handling
+├── requirements.txt        # List of dependencies
+└── README.md               # Project documentation
+```
 
 ---
 
