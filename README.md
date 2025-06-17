@@ -1,9 +1,15 @@
+
+---
+
 # 🔐 Encryption Service
+
+<p align="center">
+  <img src="https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg" alt="Build Status"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/>
+</p>
 
 A lightweight Python-based encryption and decryption tool built with the [`cryptography`](https://cryptography.io/en/latest/) library.  
 Secure your sensitive data with ease through symmetric encryption, and manage your keys efficiently.
-![Build Status](https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg)
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
@@ -48,9 +54,11 @@ py -3.12 -m venv venv
 .\env\Scripts\Activate
 ```
 
-<div align="center">
+<p align="center">
+  <a href="screenshots/Windows.gif">
   <img src="screenshots/Windows.gif" alt="Encryption Service Tools Windows" width="600"/>
-</div>
+  </a>
+</p>
 <sub>📽️ Quick Windows of the Encryption Service Tools in action</sub>
 
 ---
@@ -71,9 +79,11 @@ Before installing dependencies, it's recommended to upgrade `pip` to the latest 
 python -m pip install --upgrade pip
 ```
 
-<div align="center">
+<p align="center">
+  <a href="screenshots/Upgradepip.gif">
   <img src="screenshots/Upgradepip.gif" alt="Upgrade pip Tools Windows" width="600"/>
-</div>
+  </a>
+</p>
 <sub>📽️ Upgrading pip on Windows (recommended)</sub>
 
 ---
@@ -84,9 +94,11 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-<div align="center">
+<p align="center">
+  <a href="screenshots/install.gif">
   <img src="screenshots/install.gif" alt="Encryption Service Tools install" width="600"/>
-</div>
+  </a>
+</p>
 <sub>📽️ Quick install of the Encryption Service Tools in action</sub>
 
 ---
@@ -95,9 +107,11 @@ pip install -r requirements.txt
 
 The following is the current structure of the project files:
 
-<div align="center">
+<p align="center">
+  <a href="screenshots/summary_tree.png">
   <img src="screenshots/summary_tree.png" alt="Project file structure" width="600"/>
-</div>
+  </a>
+</p>
 <sub>📸 Project file structure overview</sub>
 
 <details>
