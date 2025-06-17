@@ -17,6 +17,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - [Clone the Repository 📥](#clone-the-repository)
 - [Quick Start 🚀](#quick-start)
 - [Project Structure 🧱](#project-structure)
+- [Integration Guide 🧪](#-integration-guide)
 - [License 📄](#license)
 - [Author 👨‍💻](#author)
 
@@ -147,6 +148,19 @@ encryption_service/
 </details>
 
 [🔝 Back to Top](#encryption-service)
+
+---
+
+## 🧪 Integration Guide
+
+Want to use `encryption_service` inside other projects?  
+Here's how to integrate it in 3 simple steps...
+
+1. Import `keys_manager` and `encryption` from the module.
+2. Load or generate your encryption key.
+3. Use `encrypt()` and `decrypt()` wherever needed in your project.
+
+✅ Ready for PostgreSQL, APIs, Flask projects and more.
 
 ---
 
