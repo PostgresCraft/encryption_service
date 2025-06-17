@@ -16,6 +16,8 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - [Features ✨](#features)
 - [Clone the Repository 📥](#clone-the-repository)
 - [Quick Start 🚀](#quick-start)
+- [Optional: Upgrade pip (recommended) ⬆️](#optional-upgrade-pip-recommended)
+- [Install Dependencies 📦](#install-dependencies)
 - [Project Structure 🧱](#project-structure)
 - [Integration Guide 🧪](#-integration-guide)
 - [Brute-force Simulation 💣](#brute-force-simulation)
