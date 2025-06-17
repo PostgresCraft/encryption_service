@@ -178,7 +178,7 @@ This script (`brute_force_simulation.py`) simulates trying 100,000+ random keys 
 Run it using:
 
 ```bash
-python brute_force_simulation.py
+py tests\brute_force_simulation.py
 ```
 
 [🔝 Back to Top](#encryption-service)
