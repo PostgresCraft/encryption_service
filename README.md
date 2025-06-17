@@ -13,7 +13,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ## 📚 Table of Contents
 
-- 👨‍💻[Features](#features) 
+- [✨ Features](#features) 
 - 📥[Clone the Repository](#clone-the-repository)
 - 🚀[Quick Start](#quick-start)
 - 🧱[Project Structure](#project-structure)
