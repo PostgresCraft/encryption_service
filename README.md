@@ -13,12 +13,12 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ## 📚 Table of Contents
 
-- [✨ Features](#-features)
-- [📥 Clone the Repository](#-clone-the-repository)
-- [🚀 Quick Start](#-quick-start)
-- [🧱 Project Structure](#-project-structure)
-- [📄 License](#-license)
-- [👨‍💻 Author](#-author)
+- [✨ Features](#features)
+- [📥 Clone the Repository](#clone-the-repository)
+- [🚀 Quick Start](#quick-start)
+- [🧱 Project Structure](#project-structure)
+- [📄 License](#license)
+- [👨‍💻 Author](#author)
 
 ---
 
@@ -29,6 +29,8 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - 🧰 Easy CLI interface (coming soon)
 - ⚙️ Ready for integration with PostgreSQL, APIs, or services
 - 💻 Cross-platform (Windows, macOS, Linux)
+
+[🔝 Back to Top](#encryption-service)
 
 ---
 
@@ -50,6 +52,7 @@ cd encryption_service
 </p>
 📽️ Quick Clone of the Encryption Service Tools in action
 
+[🔝 Back to Top](#encryption-service)
 
 ---
 
@@ -69,6 +72,8 @@ py -3.12 -m venv venv
   </a>
 </p>
 📽️ Quick Windows of the Encryption Service Tools in action
+
+[🔝 Back to Top](#encryption-service)
 
 ---
 
@@ -95,6 +100,8 @@ python -m pip install --upgrade pip
 </p>
 📽️ Upgrading pip on Windows (recommended)
 
+[🔝 Back to Top](#encryption-service)
+
 ---
 
 ### Install Dependencies
@@ -109,6 +116,8 @@ pip install -r requirements.txt
   </a>
 </p>
 📽️ Quick install of the Encryption Service Tools in action
+
+[🔝 Back to Top](#encryption-service)
 
 ---
 
@@ -136,6 +145,8 @@ encryption_service/
 
 </details>
 
+[🔝 Back to Top](#encryption-service)
+
 ---
 
 ## 📄 License
@@ -143,11 +154,15 @@ encryption_service/
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.
 
+[🔝 Back to Top](#encryption-service)
+
 ---
 
 ## 👨‍💻 Author
 
 **Tamer Hamad Faour**  
 GitHub: [@TamerOnLine](https://github.com/TamerOnLine)
+
+[🔝 Back to Top](#encryption-service)
 
 ---
