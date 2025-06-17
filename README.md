@@ -1,6 +1,4 @@
 
----
-
 # 🔐 Encryption Service
 
 <p align="center">
@@ -39,7 +37,7 @@ cd encryption_service
     <img src="screenshots/Clone.gif" alt="Quick Clone" width="600"/>
   </a>
 </p>
-<sub align="center">📽️ Quick Clone of the Encryption Service Tools in action</sub>
+📽️ Quick Clone of the Encryption Service Tools in action
 
 
 ---
@@ -59,7 +57,7 @@ py -3.12 -m venv venv
   <img src="screenshots/Windows.gif" alt="Encryption Service Tools Windows" width="600"/>
   </a>
 </p>
-<sub>📽️ Quick Windows of the Encryption Service Tools in action</sub>
+📽️ Quick Windows of the Encryption Service Tools in action
 
 ---
 
@@ -84,7 +82,7 @@ python -m pip install --upgrade pip
   <img src="screenshots/Upgradepip.gif" alt="Upgrade pip Tools Windows" width="600"/>
   </a>
 </p>
-<sub>📽️ Upgrading pip on Windows (recommended)</sub>
+📽️ Upgrading pip on Windows (recommended)
 
 ---
 
@@ -99,7 +97,7 @@ pip install -r requirements.txt
   <img src="screenshots/install.gif" alt="Encryption Service Tools install" width="600"/>
   </a>
 </p>
-<sub>📽️ Quick install of the Encryption Service Tools in action</sub>
+📽️ Quick install of the Encryption Service Tools in action
 
 ---
 
@@ -112,7 +110,7 @@ The following is the current structure of the project files:
   <img src="screenshots/summary_tree.png" alt="Project file structure" width="600"/>
   </a>
 </p>
-<sub>📸 Project file structure overview</sub>
+📸 Project file structure overview
 
 <details>
 <summary>📄 Click to view the text version</summary>
