@@ -18,3 +18,25 @@ cd encryption_service
 <sub>📽️ Quick Clone of the PostgreSQL Admin Tools in action</sub>
 
 ---
+
+## 🚀 Quick Start
+### 1. Create Virtual Environment
+```bash
+# Windows
+py -3.12 -m venv venv
+.\env\Scripts\Activate
+```
+<div align="center">
+  <img src="screenshots/Windows.gif" alt="PostgreSQL Admin Tools Windows" width="600"/>
+</div>
+<sub>📽️ Quick Windows of the PostgreSQL Admin Tools in action</sub>
+
+---
+
+```bash
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
