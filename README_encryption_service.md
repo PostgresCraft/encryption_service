@@ -1,4 +1,3 @@
-
 # Encryption Service
 
 <p align="center">
@@ -13,17 +12,16 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ## 📚 Table of Contents
 
-- [Features ✨](#features)
-- [Clone the Repository 📥](#clone-the-repository)
-- [Quick Start 🚀](#quick-start)
-- [Project Structure 🧱](#project-structure)
-- [License 📄](#license)
-- [Author 👨‍💻](#author)
-
+- [Features ✨](#features-)
+- [Clone the Repository 📥](#clone-the-repository-)
+- [Quick Start 🚀](#quick-start-)
+- [Project Structure 🧱](#project-structure-)
+- [License 📄](#license-)
+- [Author 👨‍💻](#author-)
 
 ---
 
-## Features <span style="font-size:1.2em;">✨</span>
+## Features ✨
 
 - 🔐 AES encryption and decryption (Fernet – symmetric key)
 - 🔑 Key generation, saving, and loading
@@ -35,7 +33,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ---
 
-## Clone the Repository
+## Clone the Repository 📥
 
 To get started, clone this repository to your local machine using Git:
 
@@ -57,7 +55,7 @@ cd encryption_service
 
 ---
 
-## Quick Start
+## Quick Start 🚀
 
 ### 1. Create Virtual Environment
 
@@ -73,8 +71,6 @@ py -3.12 -m venv venv
   </a>
 </p>
 📽️ Quick Windows of the Encryption Service Tools in action
-
-[🔝 Back to Top](#encryption-service)
 
 ---
 
@@ -101,8 +97,6 @@ python -m pip install --upgrade pip
 </p>
 📽️ Upgrading pip on Windows (recommended)
 
-[🔝 Back to Top](#encryption-service)
-
 ---
 
 ### Install Dependencies
@@ -122,7 +116,7 @@ pip install -r requirements.txt
 
 ---
 
-## Project Structure
+## Project Structure 🧱
 
 The following is the current structure of the project files:
 
@@ -150,7 +144,7 @@ encryption_service/
 
 ---
 
-## License
+## License 📄
 
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.
@@ -159,7 +153,7 @@ See the [LICENSE](./LICENSE) file for details.
 
 ---
 
-## Author
+## Author 👨‍💻
 
 **Tamer Hamad Faour**  
 GitHub: [@TamerOnLine](https://github.com/TamerOnLine)
