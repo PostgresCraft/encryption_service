@@ -1,5 +1,5 @@
 
-# 🔐 Encryption Service
+# Encryption Service
 
 <p align="center">
   <img src="https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg" alt="Build Status"/>
