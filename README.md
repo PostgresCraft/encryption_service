@@ -19,7 +19,7 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 - [Project Structure 🧱](#project-structure)
 - [Integration Guide 🧪](#-integration-guide)
 - [Brute-force Simulation 💣](#brute-force-simulation)
-- [Brute-force Simulation (Why Fernet is Secure) 🔐](#brute-force-simulation-why-fernet-is-secure)
+- [Brute-Force Simulation — Why Fernet is Secure 🔐](#brute-force-simulation--why-fernet-is-secure)
 - [License 📄](#license)
 - [Author 👨‍💻](#author)
 
