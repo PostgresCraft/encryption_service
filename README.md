@@ -21,6 +21,7 @@ cd encryption_service
 
 ## 🚀 Quick Start
 ### 1. Create Virtual Environment
+
 ```bash
 # Windows
 py -3.12 -m venv venv
@@ -38,5 +39,17 @@ py -3.12 -m venv venv
 python3 -m venv venv
 source venv/bin/activate
 ```
+
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+<div align="center">
+  <img src="screenshots/install.gif" alt="PostgreSQL Admin Tools install" width="600"/>
+</div>
+<sub>📽️ Quick install of the PostgreSQL Admin Tools in action</sub>
 
 ---
