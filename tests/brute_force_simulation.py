@@ -6,7 +6,7 @@ ciphertext = (
 )
 
 # Number of brute-force attempts
-attempts = 100_000000  # 100,000 attempts, negligible compared to 2^256
+attempts = 100_000  # 100,000 attempts, negligible compared to 2^256
 
 print(f"🚀 Starting brute-force decryption attempt... (Attempts: {attempts})")
 

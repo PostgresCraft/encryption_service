@@ -167,17 +167,28 @@ Here's how to integrate it in 3 simple steps...
 
 ---
 
-## Brute-force Simulation (Why Fernet is Secure)
+## Brute-Force Simulation — Why Fernet is Secure
 
-This script (`brute_force_simulation.py`) simulates trying 100,000+ random keys against a real encrypted message. As expected, none succeed.
+The script [`brute_force_simulation.py`](tests/brute_force_simulation.py) demonstrates the strength of Fernet encryption by attempting to decrypt a message using 100,000+ random keys.
 
-> Fernet uses 256-bit keys. That means **2^256 possible keys**, making brute-force attacks practically impossible — even with all the computers on Earth.
+As expected, **none succeed** — showcasing the impracticality of brute-force attacks.
 
-Run it using:
+> Fernet uses 256-bit symmetric keys.
+> That means **2⁵²⁶ possible keys**, which is more than the number of atoms in the universe.  
+> Brute-forcing such a key is computationally unfeasible.
+
+### ▶️ Run the simulation:
 
 ```bash
 py tests\brute_force_simulation.py
 ```
+
+<p align="center">
+  <a href="screenshots/brute_force_simulation.gif">
+  <img src="screenshots/brute_force_simulation.gif" alt="Encryption Service Tools brute_force_simulation" width="600"/>
+  </a>
+</p>
+📽️ It reinforces why using strong encryption like Fernet is essential.
 
 [🔝 Back to Top](#table-of-contents)
 
