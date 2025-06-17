@@ -2,7 +2,7 @@
 
 A lightweight Python-based encryption and decryption tool built with the [`cryptography`](https://cryptography.io/en/latest/) library.  
 Secure your sensitive data with ease through symmetric encryption, and manage your keys efficiently.
-
+![Build Status](https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg)
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
@@ -28,10 +28,13 @@ cd encryption_service
 
 - Make sure you have Git installed: [https://git-scm.com](https://git-scm.com)
 
-<div align="center">
-  <img src="screenshots/Clone.gif" alt="Encryption Service Tools Clone" width="600"/>
-</div>
-<sub>📽️ Quick Clone of the Encryption Service Tools in action</sub>
+<p align="center">
+  <a href="screenshots/Clone.gif">
+    <img src="screenshots/Clone.gif" alt="Quick Clone" width="600"/>
+  </a>
+</p>
+<sub align="center">📽️ Quick Clone of the Encryption Service Tools in action</sub>
+
 
 ---
 
@@ -42,7 +45,7 @@ cd encryption_service
 ```bash
 # Windows
 py -3.12 -m venv venv
-.env\Scripts\Activate
+.\env\Scripts\Activate
 ```
 
 <div align="center">
