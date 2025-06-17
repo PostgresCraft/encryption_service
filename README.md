@@ -51,8 +51,8 @@ cd encryption_service
 - Make sure you have Git installed: [https://git-scm.com](https://git-scm.com)
 
 <p align="center">
-  <a href="screenshots/Clone.gif">
-    <img src="screenshots/Clone.gif" alt="Quick Clone" width="600"/>
+  <a href="screenshots/clone-the-repository.gif">
+    <img src="screenshots/clone-the-repository.gif" alt="Quick clone-the-repository" width="600"/>
   </a>
 </p>
 📽️ Quick Clone of the Encryption Service Tools in action
@@ -176,7 +176,7 @@ The script [`brute_force_simulation.py`](tests/brute_force_simulation.py) demons
 As expected, **none succeed** — showcasing the impracticality of brute-force attacks.
 
 > Fernet uses 256-bit symmetric keys.
-> That means **2⁵²⁶ possible keys**, which is more than the number of atoms in the universe.  
+> That means **2^256 possible keys**, which is more than the number of atoms in the universe.  
 > Brute-forcing such a key is computationally unfeasible.
 
 ### ▶️ Run the simulation:
