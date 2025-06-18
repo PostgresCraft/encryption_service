@@ -1,8 +1,6 @@
 
 # Encryption Service
 
-📘 [Live Documentation](https://postgrescraft.github.io/encryption_service/)
-
 <p align="center">
   <img src="https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg" alt="Build Status"/>
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/>

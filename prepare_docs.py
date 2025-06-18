@@ -5,8 +5,8 @@ import re
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
-# حذف رابط Live Documentation
-content = re.sub(r"🔷 \[Live Documentation\]\([^)]+\)\n?", "", content)
+# حذف رابط Live Documentation بأي شكل
+content = re.sub(r".*?\[Live Documentation\]\([^)]+\)\s*\n?", "", content)
 
 # حذف جدول المحتويات بالكامل (من ## Table of Contents إلى أول ## بعده)
 content = re.sub(r"## Table of Contents[\s\S]+?(?=\n## )", "", content)
