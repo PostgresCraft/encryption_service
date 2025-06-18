@@ -6,18 +6,16 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Lightweight Python encryption tool using Fernet.">
+        <meta name="description" content="Lightweight Python-based encryption & decryption tools">
       
       
         <meta name="author" content="Tamer Hamad Faour">
       
       
-        <link rel="canonical" href="https://postgrescraft.github.io/encryption_service/">
       
       
       
-      
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="None">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
@@ -60,10 +58,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="light-blue">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -116,7 +116,19 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -138,6 +150,11 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
@@ -165,7 +182,7 @@
         <a href="https://github.com/PostgresCraft/encryption_service" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     PostgresCraft/encryption_service
@@ -211,7 +228,7 @@
       <a href="https://github.com/PostgresCraft/encryption_service" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
     PostgresCraft/encryption_service
@@ -278,9 +295,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
-      ✨ Features
+      Features
     </span>
   </a>
   
@@ -289,7 +315,7 @@
         <li class="md-nav__item">
   <a href="#clone-the-repository" class="md-nav__link">
     <span class="md-ellipsis">
-      📥 Clone the Repository
+      Clone the Repository
     </span>
   </a>
   
@@ -298,35 +324,26 @@
         <li class="md-nav__item">
   <a href="#quick-start" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 Quick Start
+      Quick Start
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🚀 Quick Start">
+    <nav class="md-nav" aria-label="Quick Start">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
+  <a href="#1-create-virtual-environment" class="md-nav__link">
     <span class="md-ellipsis">
-      Windows
+      1. Create Virtual Environment
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#macos-linux" class="md-nav__link">
+  <a href="#optional-upgrade-pip-recommended" class="md-nav__link">
     <span class="md-ellipsis">
-      macOS / Linux
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#optional-upgrade-pip" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⬆️ Optional: Upgrade pip
+      Optional: Upgrade pip (recommended)
     </span>
   </a>
   
@@ -335,7 +352,7 @@
           <li class="md-nav__item">
   <a href="#install-dependencies" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Install Dependencies
+      Install Dependencies
     </span>
   </a>
   
@@ -349,7 +366,7 @@
         <li class="md-nav__item">
   <a href="#project-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      🧱 Project Structure
+      Project Structure
     </span>
   </a>
   
@@ -365,18 +382,33 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#brute-force-simulation" class="md-nav__link">
+  <a href="#brute-force-simulation-why-fernet-is-secure" class="md-nav__link">
     <span class="md-ellipsis">
-      💣 Brute-Force Simulation
+      Brute-Force Simulation — Why Fernet is Secure
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Brute-Force Simulation — Why Fernet is Secure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#run-the-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ▶️ Run the simulation:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#license" class="md-nav__link">
     <span class="md-ellipsis">
-      📄 License
+      License
     </span>
   </a>
   
@@ -385,7 +417,7 @@
         <li class="md-nav__item">
   <a href="#author" class="md-nav__link">
     <span class="md-ellipsis">
-      👨‍💻 Author
+      Author
     </span>
   </a>
   
@@ -426,9 +458,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
-      ✨ Features
+      Features
     </span>
   </a>
   
@@ -437,7 +478,7 @@
         <li class="md-nav__item">
   <a href="#clone-the-repository" class="md-nav__link">
     <span class="md-ellipsis">
-      📥 Clone the Repository
+      Clone the Repository
     </span>
   </a>
   
@@ -446,35 +487,26 @@
         <li class="md-nav__item">
   <a href="#quick-start" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 Quick Start
+      Quick Start
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🚀 Quick Start">
+    <nav class="md-nav" aria-label="Quick Start">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
+  <a href="#1-create-virtual-environment" class="md-nav__link">
     <span class="md-ellipsis">
-      Windows
+      1. Create Virtual Environment
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#macos-linux" class="md-nav__link">
+  <a href="#optional-upgrade-pip-recommended" class="md-nav__link">
     <span class="md-ellipsis">
-      macOS / Linux
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#optional-upgrade-pip" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⬆️ Optional: Upgrade pip
+      Optional: Upgrade pip (recommended)
     </span>
   </a>
   
@@ -483,7 +515,7 @@
           <li class="md-nav__item">
   <a href="#install-dependencies" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Install Dependencies
+      Install Dependencies
     </span>
   </a>
   
@@ -497,7 +529,7 @@
         <li class="md-nav__item">
   <a href="#project-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      🧱 Project Structure
+      Project Structure
     </span>
   </a>
   
@@ -513,18 +545,33 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#brute-force-simulation" class="md-nav__link">
+  <a href="#brute-force-simulation-why-fernet-is-secure" class="md-nav__link">
     <span class="md-ellipsis">
-      💣 Brute-Force Simulation
+      Brute-Force Simulation — Why Fernet is Secure
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Brute-Force Simulation — Why Fernet is Secure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#run-the-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ▶️ Run the simulation:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#license" class="md-nav__link">
     <span class="md-ellipsis">
-      📄 License
+      License
     </span>
   </a>
   
@@ -533,7 +580,7 @@
         <li class="md-nav__item">
   <a href="#author" class="md-nav__link">
     <span class="md-ellipsis">
-      👨‍💻 Author
+      Author
     </span>
   </a>
   
@@ -558,15 +605,32 @@
   
 
 
-<h1 id="encryption-service">🔐 Encryption Service<a class="headerlink" href="#encryption-service" title="Permanent link">&para;</a></h1>
-<p><a href="https://github.com/PostgresCraft/encryption_service/actions"><img alt="Build Status" src="https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg" /></a>
-<img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" /></p>
-<blockquote>
+<h1 id="encryption-service">Encryption Service<a class="headerlink" href="#encryption-service" title="Permanent link">&para;</a></h1>
+<p>📘 <a href="https://postgrescraft.github.io/encryption_service/">Live Documentation</a></p>
+<p align="center">
+  <img src="https://github.com/PostgresCraft/encryption_service/actions/workflows/python-app.yml/badge.svg" alt="Build Status"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/>
+</p>
+
 <p>A lightweight Python-based encryption and decryption tool built with the <a href="https://cryptography.io/en/latest/"><code>cryptography</code></a> library.<br />
 Secure your sensitive data with ease through symmetric encryption, and manage your keys efficiently.</p>
-</blockquote>
 <hr />
-<h2 id="features">✨ Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="#features">Features ✨</a></li>
+<li><a href="#clone-the-repository">Clone the Repository 📥</a></li>
+<li><a href="#quick-start">Quick Start 🚀</a></li>
+<li><a href="#optional-upgrade-pip-recommended">Optional: Upgrade pip (recommended) ⬆️</a></li>
+<li><a href="#install-dependencies">Install Dependencies 📦</a></li>
+<li><a href="#project-structure">Project Structure 🧱</a></li>
+<li><a href="#-integration-guide">Integration Guide 🧪</a></li>
+<li><a href="#brute-force-simulation">Brute-force Simulation 💣</a></li>
+<li><a href="#brute-force-simulation--why-fernet-is-secure">Brute-Force Simulation — Why Fernet is Secure 🔐</a></li>
+<li><a href="#license">License 📄</a></li>
+<li><a href="#author">Author 👨‍💻</a></li>
+</ul>
+<hr />
+<h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
 <ul>
 <li>🔐 AES encryption and decryption (Fernet – symmetric key)</li>
 <li>🔑 Key generation, saving, and loading</li>
@@ -574,86 +638,129 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 <li>⚙️ Ready for integration with PostgreSQL, APIs, or services</li>
 <li>💻 Cross-platform (Windows, macOS, Linux)</li>
 </ul>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h2 id="clone-the-repository">📥 Clone the Repository<a class="headerlink" href="#clone-the-repository" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/PostgresCraft/encryption_service.git
+<h2 id="clone-the-repository">Clone the Repository<a class="headerlink" href="#clone-the-repository" title="Permanent link">&para;</a></h2>
+<p>To get started, clone this repository to your local machine using Git:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/PostgresCraft/encryption_service.git
 <span class="nb">cd</span><span class="w"> </span>encryption_service
 </code></pre></div>
+<ul>
+<li>Make sure you have Git installed: <a href="https://git-scm.com">https://git-scm.com</a></li>
+</ul>
+<p align="center">
+  <a href="screenshots/clone-the-repository.gif">
+    <img src="screenshots/clone-the-repository.gif" alt="Quick clone-the-repository" width="600"/>
+  </a>
+</p>
 
-<p><img alt="Clone Example" src="screenshots/clone-the-repository.gif" /></p>
+<p>📽️ Quick Clone of the Encryption Service Tools in action  </p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h2 id="quick-start">🚀 Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h2>
-<h3 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code>py<span class="w"> </span>-3.12<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h2>
+<h3 id="1-create-virtual-environment">1. Create Virtual Environment<a class="headerlink" href="#1-create-virtual-environment" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Windows</span>
+py<span class="w"> </span>-3.12<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
 .<span class="se">\e</span>nv<span class="se">\S</span>cripts<span class="se">\A</span>ctivate
 </code></pre></div>
-
-<p><img alt="Windows Setup" src="screenshots/Windows.gif" /></p>
+<p align="center">
+  <a href="screenshots/Windows.gif">
+  <img src="screenshots/Windows.gif" alt="Encryption Service Tools Windows" width="600"/>
+  </a>
+</p>
+<p>📽️ Quick Windows of the Encryption Service Tools in action</p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h3 id="macos-linux">macOS / Linux<a class="headerlink" href="#macos-linux" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+<div class="highlight"><pre><span></span><code><span class="c1"># macOS / Linux</span>
+python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
 <span class="nb">source</span><span class="w"> </span>venv/bin/activate
 </code></pre></div>
-
 <hr />
-<h3 id="optional-upgrade-pip">⬆️ Optional: Upgrade pip<a class="headerlink" href="#optional-upgrade-pip" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
+<h3 id="optional-upgrade-pip-recommended">Optional: Upgrade pip (recommended)<a class="headerlink" href="#optional-upgrade-pip-recommended" title="Permanent link">&para;</a></h3>
+<p>Before installing dependencies, it's recommended to upgrade <code>pip</code> to the latest version to avoid compatibility issues.</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
 </code></pre></div>
-
-<p><img alt="Upgrade pip" src="screenshots/Upgrade_pip.gif" /></p>
+<p align="center">
+  <a href="screenshots/Upgrade_pip.gif">
+  <img src="screenshots/Upgrade_pip.gif" alt="Upgrade pip Tools Windows" width="600"/>
+  </a>
+</p>
+<p>📽️ Upgrading pip on Windows (recommended)</p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h3 id="install-dependencies">📦 Install Dependencies<a class="headerlink" href="#install-dependencies" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+<h3 id="install-dependencies">Install Dependencies<a class="headerlink" href="#install-dependencies" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </code></pre></div>
-
-<p><img alt="Install Dependencies" src="screenshots/install.gif" /></p>
+<p align="center">
+  <a href="screenshots/install.gif">
+  <img src="screenshots/install.gif" alt="Encryption Service Tools install" width="600"/>
+  </a>
+</p>
+<p>📽️ Quick install of the Encryption Service Tools in action</p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h2 id="project-structure">🧱 Project Structure<a class="headerlink" href="#project-structure" title="Permanent link">&para;</a></h2>
-<p><img alt="Project Tree" src="screenshots/summary_tree.png" /></p>
+<h2 id="project-structure">Project Structure<a class="headerlink" href="#project-structure" title="Permanent link">&para;</a></h2>
+<p>The following is the current structure of the project files:</p>
+<p align="center">
+  <a href="screenshots/summary_tree.png">
+  <img src="screenshots/summary_tree.png" alt="Project file structure" width="600"/>
+  </a>
+</p>
+<p>📸 Project file structure overview</p>
 <details>
-<summary>📄 Click to view as text</summary>
+<summary>📄 Click to view the text version</summary>
 
-
-<div class="codehilite"><pre><span></span><code>encryption_service/
+<div class="highlight"><pre><span></span><code>encryption_service/
 ├──<span class="w"> </span>encryption.py<span class="w">           </span><span class="c1"># Core encryption/decryption logic</span>
 ├──<span class="w"> </span>keys_manager.py<span class="w">         </span><span class="c1"># Key generation and key handling</span>
 ├──<span class="w"> </span>requirements.txt<span class="w">        </span><span class="c1"># List of dependencies</span>
 └──<span class="w"> </span>README.md<span class="w">               </span><span class="c1"># Project documentation</span>
 </code></pre></div>
 
-
-
 </details>
 
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
 <h2 id="integration-guide">🧪 Integration Guide<a class="headerlink" href="#integration-guide" title="Permanent link">&para;</a></h2>
-<p>To use <code>encryption_service</code> in other projects:</p>
+<p>Want to use <code>encryption_service</code> inside other projects?<br />
+Here's how to integrate it in 3 simple steps...</p>
 <ol>
-<li>Import <code>keys_manager</code> and <code>encryption</code>.</li>
+<li>Import <code>keys_manager</code> and <code>encryption</code> from the module.</li>
 <li>Load or generate your encryption key.</li>
-<li>Use <code>encrypt()</code> and <code>decrypt()</code>.</li>
+<li>Use <code>encrypt()</code> and <code>decrypt()</code> wherever needed in your project.</li>
 </ol>
-<p>✅ Perfect for PostgreSQL, APIs, Flask apps, and more.</p>
+<p>✅ Ready for PostgreSQL, APIs, Flask projects and more.</p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h2 id="brute-force-simulation">💣 Brute-Force Simulation<a class="headerlink" href="#brute-force-simulation" title="Permanent link">&para;</a></h2>
-<p>Run the brute-force demo:</p>
-<div class="codehilite"><pre><span></span><code>py<span class="w"> </span>tests<span class="se">\b</span>rute_force_simulation.py
-</code></pre></div>
-
-<p><img alt="Brute Force GIF" src="screenshots/brute_force_simulation.gif" /></p>
+<h2 id="brute-force-simulation-why-fernet-is-secure">Brute-Force Simulation — Why Fernet is Secure<a class="headerlink" href="#brute-force-simulation-why-fernet-is-secure" title="Permanent link">&para;</a></h2>
+<p>The script <a href="tests/brute_force_simulation.py"><code>brute_force_simulation.py</code></a> demonstrates the strength of Fernet encryption by attempting to decrypt a message using 100,000+ random keys.</p>
+<p>As expected, <strong>none succeed</strong> — showcasing the impracticality of brute-force attacks.</p>
 <blockquote>
-<p>Fernet uses 256-bit symmetric keys.<br />
-That's <strong>2^256</strong> combinations — brute-forcing is impractical.</p>
+<p>Fernet uses 256-bit symmetric keys.
+That means <strong>2^256 possible keys</strong>, which is more than the number of atoms in the universe.<br />
+Brute-forcing such a key is computationally unfeasible.</p>
 </blockquote>
+<h3 id="run-the-simulation">▶️ Run the simulation:<a class="headerlink" href="#run-the-simulation" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>py<span class="w"> </span>tests<span class="se">\b</span>rute_force_simulation.py
+</code></pre></div>
+<p align="center">
+  <a href="screenshots/brute_force_simulation.gif">
+  <img src="screenshots/brute_force_simulation.gif" alt="Encryption Service Tools brute_force_simulation" width="600"/>
+  </a>
+</p>
+<p>📽️ It reinforces why using strong encryption like Fernet is essential.</p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h2 id="license">📄 License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
+<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
 <p>This project is licensed under the MIT License.<br />
-See the <a href="https://github.com/PostgresCraft/encryption_service/blob/main/LICENSE">LICENSE</a>
- file for full terms.</p>
+See the <a href="./LICENSE">LICENSE</a> file for details.</p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
 <hr />
-<h2 id="author">👨‍💻 Author<a class="headerlink" href="#author" title="Permanent link">&para;</a></h2>
+<h2 id="author">Author<a class="headerlink" href="#author" title="Permanent link">&para;</a></h2>
 <p><strong>Tamer Hamad Faour</strong><br />
 GitHub: <a href="https://github.com/TamerOnLine">@TamerOnLine</a></p>
+<p><a href="#table-of-contents">🔝 Back to Top</a></p>
+<hr />
 
 
 
@@ -671,8 +778,16 @@ GitHub: <a href="https://github.com/TamerOnLine">@TamerOnLine</a></p>
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -682,26 +797,6 @@ GitHub: <a href="https://github.com/TamerOnLine">@TamerOnLine</a></p>
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
-        <div class="md-social">
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/PostgresCraft/encryption_service" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
-    </a>
   
 </div>
       
@@ -717,7 +812,7 @@ GitHub: <a href="https://github.com/TamerOnLine">@TamerOnLine</a></p>
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.sections", "navigation.top", "content.code.copy", "content.tabs.link", "search.highlight", "search.share"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
