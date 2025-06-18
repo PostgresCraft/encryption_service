@@ -1,0 +1,34 @@
+site_name: Encryption Service
+site_description: Lightweight Python encryption tool using Fernet.
+site_author: Tamer Hamad Faour
+site_url: https://postgrescraft.github.io/encryption_service/
+
+repo_name: PostgresCraft/encryption_service
+repo_url: https://github.com/PostgresCraft/encryption_service
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: light blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PostgresCraft/encryption_service
