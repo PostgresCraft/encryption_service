@@ -3,10 +3,6 @@ site_url: https://PostgresCraft.github.io/encryption_service/
 repo_url: https://github.com/PostgresCraft/encryption_service
 repo_name: PostgresCraft/encryption_service
 
-# Optional: الشعار والأيقونة (favicon)
-# logo: assets/logo.png
-# favicon: assets/favicon.ico
-
 theme:
   name: material
   language: en
@@ -17,9 +13,10 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.tabs
-    - content.code.annotate
+    - content.code.annotate     # لتفسير الكود مباشرة بالهامش
+    - content.code.copy         # لزر 🗀 النسخ السريع
     - content.tabs.link
-  custom_dir: overrides  # ✅ مجلد التخصيص للتذييل
+  custom_dir: overrides        # مجلد لتخصيص التذييل أو القوالب
   font:
     text: Roboto
     code: Roboto Mono
@@ -48,6 +45,5 @@ extra:
       link: https://github.com/TamerOnLine
       name: GitHub @TamerOnLine
 
-# هذا الجزء لا يظهر footer نصي مباشرة، لكنه يسمح لنا باستخدام قالب مخصص في overrides
 plugins:
   - search
