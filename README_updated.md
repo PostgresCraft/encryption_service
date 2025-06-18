@@ -57,10 +57,7 @@ cd encryption_service
     <img src="screenshots/clone-the-repository.gif" alt="Quick clone-the-repository" width="600"/>
   </a>
 </p>
-
-📽️ Quick Clone of the Encryption Service Tools in action  
-📥 **[Download this GIF](https://github.com/PostgresCraft/encryption_service/blob/main/screenshots/clone-the-repository.gif?raw=true)**
-
+📽️ Quick Clone of the Encryption Service Tools in action
 
 [🔝 Back to Top](#table-of-contents)
 
@@ -77,11 +74,13 @@ py -3.12 -m venv venv
 ```
 
 <p align="center">
-  <a href="screenshots/Windows.gif">
-  <img src="screenshots/Windows.gif" alt="Encryption Service Tools Windows" width="600"/>
+  <a href="screenshots/clone-the-repository.gif">
+    <img src="screenshots/clone-the-repository.gif" alt="Quick Clone of the Encryption Service Tools in action" width="600"/>
   </a>
 </p>
-📽️ Quick Windows of the Encryption Service Tools in action
+
+📽️ Quick Clone of the Encryption Service Tools in action  
+📥 **[Download this GIF](https://github.com/PostgresCraft/encryption_service/blob/main/screenshots/clone-the-repository.gif?raw=true)**
 
 [🔝 Back to Top](#table-of-contents)
 
@@ -121,11 +120,13 @@ pip install -r requirements.txt
 ```
 
 <p align="center">
-  <a href="screenshots/install.gif">
-  <img src="screenshots/install.gif" alt="Encryption Service Tools install" width="600"/>
+  <a href="screenshots/Upgrade_pip.gif">
+    <img src="screenshots/Upgrade_pip.gif" alt="Upgrading pip on Windows (recommended)" width="600"/>
   </a>
 </p>
-📽️ Quick install of the Encryption Service Tools in action
+
+📽️ Upgrading pip on Windows (recommended)  
+📥 **[Download this GIF](https://github.com/PostgresCraft/encryption_service/blob/main/screenshots/Upgrade_pip.gif?raw=true)**
 
 [🔝 Back to Top](#table-of-contents)
 
