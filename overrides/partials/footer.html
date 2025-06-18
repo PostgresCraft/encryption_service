@@ -1,14 +1,9 @@
-{% raw %}
-{% if config.extra.social %}
-  {% set github = config.extra.social | selectattr("icon", "equalto", "fontawesome/brands/github") | list | first %}
-{% endif %}
-<div class="md-footer-meta md-typeset" style="text-align: center; font-size: 0.85em;">
-  <p>
-    🛡️ Developed with ♥ by <strong>Tamer Hamad Faour</strong>
-    {% if github %}
-      · <a href="{{ github.link }}" target="_blank">GitHub: @TamerOnLine</a>
-    {% endif %}
-    · <a href="https://code.visualstudio.com/Download" target="_blank">Download VS Code</a>
-  </p>
+<div class="md-footer__inner" style="display:flex; justify-content:space-between; align-items:center;">
+  <div>
+    Developed with ❤️ by Tamer Hamad Faour
+    • GitHub: <a href="https://github.com/TamerOnLine" target="_blank">@TamerOnLine</a>
+  </div>
+  <div>
+    Download: <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
+  </div>
 </div>
-{% endraw %}

@@ -21,6 +21,7 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+
 nav:
   - Home: index.md
   - GitHub Repo: https://github.com/PostgresCraft/encryption_service
@@ -44,6 +45,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/TamerOnLine
       name: GitHub @TamerOnLine
+
+extra_css:
+  - stylesheets/extra.css
 
 
 plugins:
