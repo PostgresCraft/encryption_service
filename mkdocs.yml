@@ -1,37 +1,32 @@
 site_name: Encryption Service
-site_description: Lightweight Python-based encryption & decryption tools
-site_author: Tamer Hamad Faour
+site_url: https://PostgresCraft.github.io/encryption_service/
 repo_url: https://github.com/PostgresCraft/encryption_service
 repo_name: PostgresCraft/encryption_service
+
+# Optional: الشعار والأيقونة (favicon)
+# logo: assets/logo.png
+# favicon: assets/favicon.ico
 
 theme:
   name: material
   language: en
+  palette:
+    primary: blue
+    accent: light blue
   features:
     - navigation.instant
-    - navigation.sections
     - navigation.top
-    - content.code.copy
+    - navigation.tabs
+    - content.code.annotate
     - content.tabs.link
-    - search.highlight
-    - search.share
-  palette:
-    - scheme: default
-      primary: blue
-      accent: indigo
+  custom_dir: overrides  # ✅ مجلد التخصيص للتذييل
   font:
     text: Roboto
     code: Roboto Mono
-  logo: null
-  favicon: null
-  icon:
-    repo: fontawesome/brands/github
-
-extra:
-  generator: false  # 🔥 لإخفاء "Made with Material for MkDocs"
 
 nav:
   - Home: index.md
+  - GitHub Repo: https://github.com/PostgresCraft/encryption_service
 
 markdown_extensions:
   - toc:
@@ -42,13 +37,17 @@ markdown_extensions:
   - meta
   - tables
   - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.details
-  - pymdownx.tabbed
-  - pymdownx.keys
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_alt
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TamerOnLine
+      name: GitHub @TamerOnLine
+
+# هذا الجزء لا يظهر footer نصي مباشرة، لكنه يسمح لنا باستخدام قالب مخصص في overrides
 plugins:
   - search

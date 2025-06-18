@@ -13,21 +13,6 @@ Secure your sensitive data with ease through symmetric encryption, and manage yo
 
 ---
 
-## Table of Contents
-
-- [Features ✨](#features)
-- [Clone the Repository 📥](#clone-the-repository)
-- [Quick Start 🚀](#quick-start)
-- [Optional: Upgrade pip (recommended) ⬆️](#optional-upgrade-pip-recommended)
-- [Install Dependencies 📦](#install-dependencies)
-- [Project Structure 🧱](#project-structure)
-- [Integration Guide 🧪](#-integration-guide)
-- [Brute-force Simulation 💣](#brute-force-simulation)
-- [Brute-Force Simulation — Why Fernet is Secure 🔐](#brute-force-simulation--why-fernet-is-secure)
-- [License 📄](#license)
-- [Author 👨‍💻](#author)
-
----
 
 ## Features
 
