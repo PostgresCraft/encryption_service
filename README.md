@@ -59,8 +59,6 @@ cd encryption_service
 </p>
 
 📽️ Quick Clone of the Encryption Service Tools in action  
-📥 **[Download this GIF](https://github.com/PostgresCraft/encryption_service/blob/main/screenshots/clone-the-repository.gif?raw=true)**
-
 
 [🔝 Back to Top](#table-of-contents)
 
