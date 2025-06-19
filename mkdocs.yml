@@ -11,7 +11,6 @@ theme:
     accent: light blue
   features:
     - navigation.instant
-    - navigation.top
     - navigation.tabs
     - content.code.annotate     # لتفسير الكود مباشرة بالهامش
     - content.code.copy         # لزر 🗀 النسخ السريع
